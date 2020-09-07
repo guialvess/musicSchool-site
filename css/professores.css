@@ -1,0 +1,76 @@
+.professores-container {
+    height:3400px;
+    margin-top:80px;
+}
+.professor {
+    height:340px;
+    display:flex;
+    gap:100px;
+    /* background:gray; */
+    margin-top:40px;
+    transition:all ease-in 5s;
+}
+.professor:nth-child(2n) .professor-info{
+    order:-1;
+    margin-left:60px;
+}
+.professor:nth-child(2n) .professor-nome{
+    text-align: right;
+}
+.professor:nth-child(2n) .professor-img{
+    margin-right:60px;
+    margin-left:0;
+}
+
+.professor:hover {
+    background:linear-gradient(#272727,#2c2c2c);
+}
+.professor-img img {
+    border:3px solid #FFA304;
+    border-radius:50%;
+    margin-top:20px;
+}
+/* .btn-zoom {
+    display:none;
+    color:white;
+    font-size:60px;
+    text-align: center;
+    line-height: 100px;
+    position:absolute;
+    top:35%;
+    left:33%;
+    width:100px;
+    height:100px;
+    background:rgba(255, 166, 0, 0.503);
+    border-radius: 50%;
+    cursor:pointer;
+    user-select: none;
+}
+.professor-img:hover  .btn-zoom {
+    display:block;
+} */
+.professor-img {
+     margin-left:60px;
+     position:relative;
+}
+.professor-info {
+    /* background:pink; */
+    text-align:left;
+    padding-top:50px;
+}
+.professor-nome {
+    color:white;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size:48px;
+    font-weight: 700;
+}
+.professor p {
+    color:white;
+    font-size: 24px;
+    font-family: 'Lato','sans-serif';
+    margin-top:10px;
+    word-break: break-all;
+    width:80%;
+}
+
+

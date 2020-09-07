@@ -1,0 +1,550 @@
+/* Váriaveis com cores */
+:root {
+--var-background:#101010;
+--var-background2:#000000;
+--var-amarelo:#ffa304;
+--var-green:#27ae61;
+--var-blue:#17abe7;
+}
+
+li {
+    margin:0;
+    padding:0;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#101010;
+    margin:0;
+    padding:0;
+}
+
+/* estilo do cabeçalho */
+.head {
+    height: 150px;
+    background-color:#000000;
+    padding-top:20px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ffffff;
+}
+
+.logo {
+    text-align:center;
+    position:relative;
+}
+.logo::after {
+    position:absolute;
+    content:url(../svg/logo-decoration.svg);
+    display:block;
+    /* transform:translate(600px,-30px) */
+    left:30px;
+    right:0;
+    top:30px;
+}
+
+.flex-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+   
+}
+.menu ul {
+    display:flex;
+    flex-direction: row;
+
+}
+.menu li {
+    gap:10px;
+    padding:10px;
+    list-style: none;
+}
+
+.menu li a{
+    color:white;
+    text-decoration: transparent;
+    transition: all ease-in .3s;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menu li a:hover {
+    text-decoration:underline;
+    text-decoration-color: #ffa304;
+}
+
+.submenu {
+    align-items: flex-end;
+}
+
+.submenu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+
+.btn-assinar {
+    background-color: #ffa304;
+    padding:20px;
+    border-radius: 10px;
+    margin-right:40px;
+}
+
+.btn-assinar:hover {
+    box-shadow: 0 0 10px  yellow;
+}
+
+/* sessão de apresentação */
+@keyframes blur {
+    0% {
+        color:rgb(49, 49, 49);
+    }
+    100% {
+        color:white;
+    }
+}
+
+.apresentacao {
+    display:flex;
+    flex-direction: row;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: stretch;
+    gap:60px;
+    flex-wrap: nowrap;
+    margin-top:40px;
+    height: 400px;
+}
+.apresentacao-img {
+    margin-left:40px;
+}
+.apresentacao-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.apresentacao-text {
+    max-width: 700px;
+    flex-shrink:0;
+}
+.apresentacao-text p {
+    animation-name: blur;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+.apresentacao h1 {
+    text-align: center;
+    z-index:300;
+    font-size:32px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.hide {
+    display:none;
+}
+.musicSchool {
+    color:#ffa304;
+}
+
+/* seção de intruments interaćão */
+.instruments {
+    display:flex;
+    gap:60px;
+    justify-content: center;
+    margin-top:100px;
+    position:relative;
+
+}
+.instruments::after {
+    content:'';
+    background: url(../svg/linhaestilo.svg)no-repeat;
+    height:3px;
+    width:600px;
+    position:absolute;
+    top:25px;
+    transform: translateX(0px);
+    z-index:-10;
+}
+
+.instruments-item1::after {
+    content:url(../svg/saxofone-amarelo.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.instruments-item1Novo::after {
+    content:url(../svg/saxofone-amarelo2.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.instruments-item2::after {
+    content:url(../svg/electric-guitar-amarelo.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+}
+.instruments-item2Novo::after {
+    content:url(../svg/electric-guitar-branco.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.instruments-item3::after {
+    content:url(../svg/piano-amarelo.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+}
+.instruments-item3Novo::after {
+    content:url(../svg/piano-branco.svg);
+    display:block;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.instruments-item4::after {
+    content:url(../svg/flute-amarelo.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+}
+.instruments-item4Novo::after {
+    content:url(../svg/flute-branco.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+}
+.instruments-item5::after {
+    content:url(../svg/drums-amarelo.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.instruments-item5Novo::after {
+    content:url(../svg/drums-branco.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.instruments-item6::after {
+    content:url(../svg/guitar-amarelo.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.instruments-item6Novo::after {
+    content:url(../svg/guitar-branco.svg);
+    display:block;
+    padding:5px;
+    border:2px solid #ffa304;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+
+/* video relacionado aos cursos + desc */
+.instrument-active {
+    color:white;
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:60px;
+    letter-spacing: 5px;
+    font-size:24px;
+}
+.line {
+    margin-bottom:30px;
+    display:flex;
+    justify-content: center;
+    margin-top:-10px;
+}
+.line::after {
+    content:'';
+    width:50px;
+    height:2px;
+    background:#ffa304;
+    display:block;
+}
+iframe {
+    width:80%;
+    height: 500px;
+    border:none;
+    margin-left:80px;
+    margin-bottom:100px;
+}
+.video-instrument {
+    display:grid;
+    color:#ffffffc2;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 2fr;
+}
+
+.desc-video-play ul li {
+    margin:20px 0;
+    padding:0;
+    font-size:18px;
+    list-style:none;
+    font-family:'Open Sans', sans-serif;
+}
+.desc-video-play object {
+    width: 64px;
+    margin:40px;
+}
+.desc-video-play ul li::before {
+    display:inline-block;
+    content:'\2714';
+    margin-right:5px;
+}
+.desc-video-play p {
+    color:white;
+    font-size:20px;
+    font-family:'Open Sans', sans-serif;
+
+}
+.btn-aulas {
+    background-color:#27ae61;
+    padding:5px;
+    color:white;
+    display:block;
+    width:200px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 10px;
+    text-decoration:none;
+    text-align:center;
+    font-size:18px;
+    font-family: sans-serif;
+    transition:background-color ease-out .3s;
+}
+.btn-aulas:hover {
+    background:#22c067;
+}
+
+/* card serviço */
+
+.card-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:400px;
+}
+.card-container a {
+    text-decoration:none;
+    color:black;
+}
+.card {
+    background-color:#27ae61;
+    width:740px;
+    height: 300px;
+    border-radius:5px 5px 25px 25px;
+    text-align: center;
+    display:grid;
+    grid-template-areas: "a a a a a a"
+                         "b b c c c c"
+                         "d d d d d d";
+    box-shadow: 0 0 5px 3px #134d2c;
+}
+
+.grid1 {
+    grid-area: a;
+    display:block;
+}
+.grid2 {
+    grid-area: b;
+
+}
+.grid3 {
+    grid-area: c;
+    justify-self: self-start;
+
+}
+.grid4 {
+    grid-area:d;
+}
+
+.card p {
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
+    color:#ffffff;
+    margin-left:30px;
+}
+.card span {
+    color:white;
+    font-family:'Open Sans', sans-serif;
+    font-size:28px;
+}
+.card .s-moeda {
+    text-transform: uppercase;
+    font-size:28px;
+}
+.card .s-preco {
+    font-size:80px;
+}
+.card .plano {
+    font-size:25px;
+}
+.btn-as-card {
+    background-color:rgb(233, 197, 88);
+    color:#ffffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    width:150px;
+    height:50px;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    text-align: center;
+    transition: all ease-out .4s;
+    margin-top:0;
+    cursor:pointer;
+}
+.btn-as-card:hover {
+    background-color: #ffffff;
+    color:black;
+}
+
+.card object {
+    width:120px;
+    height: 120px;
+}
+
+
+/* Beneficios */
+
+
+.servicos {
+    height:500px;
+    background-color:rgba(238, 188, 40, 0.8);
+    text-align:center;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    box-sizing: border-box;
+    border-bottom:1px solid white;
+    z-index: 10;
+}
+.servicos object {
+    width:100px;
+    height: 100px;
+}
+.servicos img {
+    width:100px;
+    height:100px;
+}
+.servicos h2 {
+    font-size:48px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.servicos-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.servicos-container h3 {
+    z-index:10;
+    font-size:32px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.servicos-container p {
+    text-align:justify;
+    max-width:500px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bnf1, .bnf2, .bnf3 {
+    padding:10px;
+    transition:background ease-out .2s;
+    background:rgba(238, 188, 40,0.3);
+}
+
+.bnf1:hover, .bnf2:hover, .bnf3:hover {
+    background-color:rgba(238, 188, 40, 0.9);
+}
+
+/* rodapé do site */
+
+.footer {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+}
+.footer .nav-footer a {
+    color:#ffffff;
+    text-decoration: none;
+}
+.footer .nav-footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa304;
+}
+.footer .nav-footer li {
+    list-style:none;
+    margin-top:20px;
+    margin-left:40px;
+}
+.footer .nav-footer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;
+}
+.footer .redes-sociais {
+    display:flex;
+    align-items: center;
+    gap:20px;
+    margin-right: 40px;
+}
+
+.footer .redes-sociais img{
+    display:inline-block;
+    width: 50px;
+}
+
