@@ -1,0 +1,59 @@
+body {
+    outline:0;
+}
+.container h1 {
+    color: white;
+    font-size:64px;
+    font-family: 'Ubuntu','sans-serif';
+    margin-left:40px;
+}
+.login-form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Ubuntu','sans-serif';
+    height: 700px;
+}
+.login-form h2 {
+    font-size: 32px;
+}
+.login-form form { 
+    display:flex;
+    flex-direction: column;
+    width:600px;
+}
+.login-form form label {
+    margin-bottom: 10px;
+}
+.login-form input {
+    margin-bottom:40px;
+    background:none;
+    color:white;
+    border:2px solid white;
+    height: 30px;
+    padding:10px;
+    font-size: 1.3em;
+}
+.login-form input::placeholder {
+    text-align: center;
+}
+
+.login-form button {
+    height:40px;
+    width: 180px;
+    font-size:.9em;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    letter-spacing: 3px;
+    cursor: pointer;
+    border:2px solid white;
+    border-radius:5px;
+    background:none;
+    color:white;
+    transition:all ease 1s;
+}
+.login-form button:hover{
+    background:rgb(235, 229, 229);
+    color:initial;
+}
