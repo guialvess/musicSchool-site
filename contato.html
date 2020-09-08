@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inicio - MusicSchool</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <title>Fale conosco - MusicSchool</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet"> </head>
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
 <body>
     <header class="head">
         <div class="logo">
@@ -27,64 +29,37 @@
     </div>
     </header>  <!-- fim do header -->
 
-    <section class="apresentacao">
-        <div class="apresentacao-img">
-            <img src="img/img-guitarHome.png" alt="guitarrista">
-        </div>
-        <div class="apresentacao-text">
-            <h1>aqui na <span class="musicSchool">MusicSchool</span> você aprende música
-                sem sair de casa
-            </h1>
-            <p class="hide">
-                por um preço ótimo você paga uma assinatura e faz todas as aulas que quiser.
-                deseja estudar Bateria, Violão? assine com a MusicSchool.
-            </p>
-            <p class="hide">
-                a musica é a arte mais direta. ela entra no ouvido, vai para o coração e manifesta-se na alma.
-                e na musicSchool é muito facil aprender música:você estuda o que quiser, quando quiser, de onde estiver e por um ótimo preço.
-            </p>
-        </div>
-    </section>
-    <section class="instruments">
-        <div class="instruments-item1 stri"></div>
-        <div class="instruments-item2 stri"></div>
-        <div class="instruments-item3 stri"></div>
-        <div class="instruments-item4 stri"></div>
-        <div class="instruments-item5 stri"></div>
-        <div class="instruments-item6 stri"></div>
-    </section>
-    <div class="instruments-line"></div>
-
-    <section>
-        <h2 class="instrument-active">Saxofone</h2>
-        <div class="line"></div>
-        <div class="video-instrument">
-            <div class="video-play">
-                <iframe  src='' frameborder=”0” allowfullscreen>
-                </iframe>
+    <main> <!--aqui começa o conteudo da página-->
+        <section class="instruments">
+            <div class="instruments-item1 stri"></div>
+            <div class="instruments-item2 stri"></div>
+            <div class="instruments-item3 stri"></div>
+            <div class="instruments-item4 stri"></div>
+            <div class="instruments-item5 stri"></div>
+            <div class="instruments-item6 stri"></div>
+        </section>
+        <div class="container">
+            <div class="contato-info">
+                <h1>Fale Conosco</h1>
+                <p>
+                    esse é o espaço onde você pode entrar em contato conosco, não deixe de nos contatar em caso de
+                    dúvida e perguntas.
+                </p>
             </div>
-            <div class="desc-video-play">
-                <p>aprenda a tocar <span class="instrumento-rel">Saxofone</span> sem sair de casa</p>
-                <ul>
-                    <li>são mais de 250 aulas</li>
-                    <li>qualidade de audio  video exelente(1080p)</li>
-                    <li>grupo de ajuda com Professores</li>
-                    <li>preço baixo</li>
-                    <li>escolha fazer até 3 cursos Simultaneos</li>
-                    <li>cancele quando quiser</li>
-
-                    <a class="btn-aulas" href="login.html">Aulas</a>
-                </ul>
-                <object data="svg/icons8-música.svg" type="image/svg+xml" class="icon-music1"></object>
-                <object data="svg/icons8-música.svg" type="image/svg+xml" class="icon-music2"></object>
-                <object data="svg/icons8-música.svg" type="image/svg+xml" class="icon-music3"></object>
-                <object data="svg/icons8-música.svg" type="image/svg+xml" class="icon-music4"></object>
-
-
+            <div class="form-contato">
+                <form action="" method="post" id="formulario">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name">
+                    <label for="mail"> seu Email</label>
+                    <input type="email" name="mail" id="mail">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" name="assunto" id="assunto">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="80" rows="15"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
-        </div>
-    </section>
-
+    </div>
     <div class="card-container">
         <a href="assinar.html">
         <div class="card">
@@ -137,6 +112,8 @@
             </div>
         </div>
     </div>
+    </main>
+
     <footer class="footer">
         <nav class="nav-footer">
             <ul>
@@ -146,8 +123,8 @@
             </ul>
             <ul>
                 <li><a href="contato.html">Fale conosco</a></li>
-                <li><a href="login.html">Minha conta</a></li>
-                <li><a href="planos.html">Planos</a></li>
+                <li><a href="#">Minha conta</a></li>
+                <li><a href="#">Planos</a></li>
             </ul>
         </nav>
         <div class="redes-sociais">
@@ -157,8 +134,7 @@
             <a href="#"><img src="svg/youtube.svg" alt="youtube"></a>
         </div>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="JS/script.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JS/script.js"></script> -->
 </body>
 </html>
