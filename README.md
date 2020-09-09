@@ -1,3 +1,3 @@
 site de aulas de musica 
 
-adiconada pafina de ccontato e de login
+adiconada pagina de ccontato e de login
