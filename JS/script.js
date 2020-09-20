@@ -136,7 +136,7 @@ $(".passo1").mouseover(() => {
 })
 $(".passo1").mouseout(() => {
     $(".passo1").find("object").removeClass(animate)
-    $(".passo1").find(".passo-title").css({color:'black'})
+    $(".passo1").find(".passo-title").css({color:'white'})
 })
 
 $(".passo2").mouseover(() => {
@@ -145,7 +145,7 @@ $(".passo2").mouseover(() => {
 })
 $(".passo2").mouseout(() => {
     $(".passo2").find("object").removeClass(animate)
-    $(".passo2").find(".passo-title").css({color:'black'})
+    $(".passo2").find(".passo-title").css({color:'white'})
 
 })
 
@@ -156,7 +156,7 @@ $(".passo3").mouseover(() => {
 })
 $(".passo3").mouseout(() => {
     $(".passo3").find("object").removeClass(animate)
-    $(".passo3").find(".passo-title").css({color:'black'})
+    $(".passo3").find(".passo-title").css({color:'white'})
 
 })
 
@@ -167,7 +167,7 @@ $(".passo4").mouseover(() => {
 })
 $(".passo4").mouseout(() => {
     $(".passo4").find("object").removeClass(animate)
-    $(".passo4").find(".passo-title").css({color:'black'})
+    $(".passo4").find(".passo-title").css({color:'white'})
 
 })
 

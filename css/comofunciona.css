@@ -1,22 +1,26 @@
+body {
+    background-color: #202020f3;
+}
 .content {
     width: 100%;
     height: 1300px;
-    background-color:#101010;
-    color:rgb(0, 0, 0);
+    background-color:#202020f3;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin-top:80px;
 }
 .passos, .termos {
     width:85%;
-    height:350px;
+    height:380px;
     margin:0 auto;
-    background-color:#f8f8ff;
+    background-color:#101010;
     padding:20px;
     border-radius:8px;
-    box-shadow:5px 5px 5px #f8f8ff;
 }
 .passo1, .passo2, .passo3, .passo4 {
     cursor:pointer;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -29,9 +33,9 @@
     font-weight: 700;
 }
 .termos .btn-planos {
-    color:white;
+    color:rgb(0, 0, 0);
     display:block;
-    background:rgb(0, 0, 0);
+    background:rgb(194, 194, 194);
     padding:auto;
     text-decoration: none;
     width:200px;
@@ -45,19 +49,19 @@
     transition:all ease-in .2s;
 }
 .termos .btn-planos:hover {
-    background:rgba(0, 0, 0, 0.864);
+    background:rgba(252, 250, 250, 0.864);
 }
 .passos h1 {
-    font-size:28px;
+    font-size:24px;
     font-family: 'Lato', 'sans-serif';
     font-weight: 700;
 }
 .passos p {
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 .passos-container {
     display:flex;
-    gap:20px;
 }
 
 .passos object {
@@ -73,9 +77,11 @@
 .termos ol li {
     margin-top:20px;
     font-family: 'Lato', sans-serif;
+    color:white;
+    z-index: 20;
 }
 .termos ol li:hover {
-    font-weight: bold;
+    color:rgb(245, 61, 61);
 }
 
 .termos ol li:after {
