@@ -92,3 +92,102 @@ body {
     background-color: rgba(71, 71, 71, 0.313);
 
 }
+
+/*media query*/
+
+@media screen and (max-width:580px) {
+    .content {
+        width: 100%;
+        height: auto;
+        margin-top:20px;
+    }
+    .passos, .termos {
+        max-width:580px;
+        height:auto;
+        margin:0 auto;
+        background-color:#101010;
+        padding:20px;
+        border-radius:8px;
+    }
+    .passo1, .passo2, .passo3, .passo4 {
+        cursor:pointer;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom:20px;
+    }
+    .passos h1 {
+        font-size:14px;
+        font-family: 'Lato', 'sans-serif';
+        font-weight: 700;
+        margin-bottom:40px;
+    }
+    .passos p {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        display:inline;
+    }
+    .passos-container {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .passos object {
+        width:90px;
+        margin-bottom:20px;
+        display:inline-block;
+        margin-left:35%;
+    }
+    .passo-title {
+        font-weight: bolder;
+        font-family: 'Lato', 'sans-serif';
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    
+    .termos {
+        margin-top:50px;
+        height:auto;
+    }
+    .termos h2 {
+        font-family: 'Lato', 'sans-serif';
+        font-weight: 700;
+    }
+    .termos .btn-planos {
+        color:rgb(0, 0, 0);
+        display:block;
+        background:rgb(194, 194, 194);
+        padding:auto;
+        text-decoration: none;
+        width:100px;
+        height: 40px;
+        text-align:center;
+        line-height: 40px;
+        border-radius:5px;
+        margin:60px auto;
+        box-shadow: 5px 5px 5px black;
+        border:1px solid black;
+        transition:all ease-in .2s;
+    }
+    .termos .btn-planos:hover {
+        background:rgba(252, 250, 250, 0.864);
+    }
+ 
+    .termos ol li {
+        margin-top:20px;
+        font-family: 'Lato', sans-serif;
+        color:white;
+        z-index: 20;
+    }
+    .termos ol li:hover {
+        color:rgb(245, 61, 61);
+    }
+    .termos ol li:after {
+        content:'';
+        display:block;
+        height: 2px;
+        width:100%;
+        background-color: rgba(71, 71, 71, 0.313);
+    
+    }
+}

@@ -637,10 +637,10 @@ iframe {
     }
     
     .instruments-item1::after {
-        margin-left:70px;
+        margin-left:50px;
     }
     .instruments-item1Novo::after {
-                    margin-left:70px;
+                    margin-left:50px;
     }
     .instruments-item2::after {
         margin-left:40px;
@@ -655,17 +655,17 @@ iframe {
       margin-right:40px;
     }
     .instruments-item3Novo::after {
-        margin-left:50px;
-        margin-right:50px;
+        margin-left:40px;
+        margin-right:40px;
     }
     
     .instruments-item4::after {
         margin-top:20px;
-        margin-left:70px;
+        margin-left:50px;
     }
     .instruments-item4Novo::after {
         margin-top:20px;
-        margin-left:70px;
+        margin-left:50px;
     }
     .instruments-item5::after {
         margin-top:20px;
@@ -686,6 +686,214 @@ iframe {
         margin-top:20px;
         margin-left:40px;
     
+    }
+    /* video relacionado aos cursos + desc */
+
+.instrument-active {
+    font-size:20px;
+}
+.line::after {
+    width:20px;
+}
+.video-instrument {
+    display:block;
+    text-align:center;
+    height:880px;
+    overflow:hidden;
+}
+iframe {
+    width:90%;
+    height: 400px;
+    border:none;
+    margin-left:10px;
+    margin-bottom:30px
+}
+.desc-video-play ul li {
+    margin:20px 0;
+    margin-left:40px;
+    font-size:12px;
+    text-align:left;
+}
+.desc-video-play object {
+    width: 50px;
+    margin:40px;
+}
+.desc-video-play p {
+    font-size:18px;
+}
+.btn-aulas {
+    width:100px;
+    margin:0 auto;
+}
+/* card serviço */
+
+.card-container {
+    display:none;
+  }
+  /* Beneficios */
+
+
+.servicos {
+    height:auto;
+}
+.bnf1,.bnf2,.bnf3 {
+	margin-top:5px;
+}
+.servicos object {
+    width:50px;
+    height: 50px;
+}
+.servicos img {
+    width:50px;
+    height:50px;
+}
+.servicos h2 {
+    font-size:28px;
+}
+
+.servicos-container {
+    display:block;
+}
+.servicos-container h3 {
+    font-size:22px;
+}
+.servicos-container p {
+    text-align:left;
+    max-width:400px;
+}
+/* rodapé do site */
+
+.footer {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    height: auto;
+}
+.footer .nav-footer li {
+    list-style:none;
+    margin-top:20px;
+    margin-left:40px;
+    
+}
+.footer .nav-footer li:after {
+	content:'';
+	display:block;
+	width:20px;
+	height:2px;
+	background:gray;
+	margin-top:5px;
+}
+.footer .nav-footer {
+    display:block;
+    width:160px;
+    margin:0 auto;
+    text-align:left;
+}
+.footer .redes-sociais {
+			 margin-top:40px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 0px;
+    margin-bottom:15px;
+}
+
+.footer .redes-sociais img{
+    display:inline-block;
+    width: 40px;
+    
+}
+
+}
+
+/*landscape*/
+@media screen and (orientation:landscape){
+    .flex-menu {
+        display:none;
+    }
+    .head {
+        height: auto;
+        background-color:#000000;
+        padding-top:20px;
+        box-sizing:border-box;
+        border-bottom:1px solid #ffffff;
+    }
+    .logo {
+        text-align:center;
+        position:relative;
+        margin-bottom:50px;
+    }
+    .apresentacao {
+        display:block;
+        height:530px;
+    }
+    .apresentacao-img {
+        margin-left:0px;
+        text-align:center;
+    }
+    .apresentacao-img img {
+        height: 80%;
+        width: 80%;
+    }
+    .apresentacao h1 {
+        text-align: center;
+        font-size:20px;
+    }
+
+    /* media queries instrumentos */
+
+    .instruments {
+        justify-content:flex-start;
+        margin-top:60px;
+        flex-wrap:nowrap;
+    }
+    .instruments::after {
+        width:100%;
+    }
+    
+    .instruments-item1::after {
+        margin-left:0;
+    }
+    .instruments-item1Novo::after {
+                    margin-left:0px;
+    }
+    .instruments-item2::after {
+        margin-left:40px;
+    }
+    .instruments-item2Novo::after {
+        margin-left:40px;
+    
+    }
+    
+    .instruments-item3::after {
+      margin-left:40px;
+      margin-right:40px;
+    }
+    .instruments-item3Novo::after {
+        margin-left:40px;
+        margin-right:40px;
+    }
+    
+    .instruments-item4::after {
+        margin-left:40px;
+    }
+    .instruments-item4Novo::after {
+        margin-left:40px;
+    }
+    .instruments-item5::after {
+        margin-left:40px;
+    
+    }
+    .instruments-item5Novo::after {
+        margin-left:40px;
+    
+    }
+    .instruments-item6::after {
+        margin-left:50px;
+    
+    }
+    .instruments-item6Novo::after {
+        margin-left:50px;
     }
     /* video relacionado aos cursos + desc */
 
