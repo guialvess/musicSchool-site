@@ -125,6 +125,45 @@ input:focus {
     box-shadow: 0 0 10px  yellow;
 }
 
+.menu-mobile {
+	width:100%;
+	background:white;
+}
+.menu-mobile img {
+	width:64px;
+}
+.mobile-nav li {
+	text-align:center;
+	background:#464646;
+}
+.mobile-nav li:hover {
+	background-color:#DDBB3F;
+}
+.mobile-nav li a {
+	font-family:sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:15px;
+}
+.submenu-mobile {
+	display:inline-block;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+}
+.submenu-mobile a {
+	text-decoration:none;
+	color:black;
+	font-family:sans-serif;
+}
+.submenu-mobile .btnn-assinar {
+	background:#E7C749;
+	padding:5px;
+	display:inline-block;
+	border-radius:5px;
+}
 /* sessão de apresentação */
 @keyframes blur {
     0% {
@@ -1010,4 +1049,3 @@ iframe {
  
     
 } */
-
