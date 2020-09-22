@@ -17,7 +17,7 @@
 .contato-info p {
     font-family: 'Open Sans','sans-serif';
     font-size:20px;
-    color:#1ea4a7;
+    color:#4f9899;
 }
 
 #formulario {
@@ -58,4 +58,72 @@
     padding:30px 60px;
     border:2px solid #FEA303;
     width: 70%;
+}
+
+@media screen and (max-width:580px) {
+    .container {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:60px;
+        margin-bottom: 60px;
+    }
+    .contato-info {
+        color:white;
+        margin-bottom: 20px;
+    }
+    .contato-info h1 {
+        font-family: 'Ubuntu','sans-serif';
+        font-size:38px;
+        text-align: center;
+    }
+    .contato-info p {
+        font-family: 'Open Sans','sans-serif';
+        font-size:20px;
+        color:#43b7b9;
+        margin-left:30px;
+        margin-right: 30px;
+    }
+    
+    #formulario {
+        display:flex;
+        flex-direction: column;
+    }
+    #formulario label {
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:20pxpx;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+    #formulario input,
+                #mensagem {
+        background:transparent;
+        border:2px solid white;
+        padding: 10px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+    }
+    #formulario button {
+        margin:40px 0;
+        flex:1;
+        color:white;
+        display:inline-block;
+        background:#FEA303;
+        border:1px solid rgb(150, 150, 150);
+        text-transform: uppercase;
+        border-radius:5px;
+        width: 120px;
+        padding: 10px;
+        cursor:pointer;
+    }
+    
+    .form-contato {
+        padding:10px 30px;
+        border:none;
+        border-top:4px solid #FEA303;
+        border-bottom:4px solid #FEA303;
+        width:80%;
+    }
 }

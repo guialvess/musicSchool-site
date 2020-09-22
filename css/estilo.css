@@ -50,7 +50,6 @@ input:focus {
     background-color:#000000;
     padding-top:20px;
     box-sizing:border-box;
-    border-bottom:1px solid #ffffff;
 }
 
 .logo {
@@ -591,7 +590,7 @@ iframe {
         background-color:#000000;
         padding-top:20px;
         box-sizing:border-box;
-        border-bottom:1px solid #ffffff;
+        border-bottom:1px solid #222222;
     }
     .logo {
         text-align:center;
@@ -807,7 +806,8 @@ iframe {
 }
 
 /*landscape*/
-@media screen and (orientation:landscape){
+
+/* @media screen and (orientation:landscape){
     .flex-menu {
         display:none;
     }
@@ -840,7 +840,6 @@ iframe {
         font-size:20px;
     }
 
-    /* media queries instrumentos */
 
     .instruments {
         justify-content:flex-start;
@@ -895,7 +894,6 @@ iframe {
     .instruments-item6Novo::after {
         margin-left:50px;
     }
-    /* video relacionado aos cursos + desc */
 
 .instrument-active {
     font-size:20px;
@@ -933,12 +931,10 @@ iframe {
     width:100px;
     margin:0 auto;
 }
-/* card serviço */
 
 .card-container {
     display:none;
   }
-  /* Beneficios */
 
 
 .servicos {
@@ -969,7 +965,6 @@ iframe {
     text-align:left;
     max-width:400px;
 }
-/* rodapé do site */
 
 .footer {
     background-color: #000000;
@@ -1014,5 +1009,5 @@ iframe {
 
  
     
-}
+} */
 

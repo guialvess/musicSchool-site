@@ -73,4 +73,122 @@
     width:80%;
 }
 
+@media screen and (max-width:580px) {
+    .professores-container {
+        height:auto;
+        margin-top:0px;
+    }
+    .professor {
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0px;
+        margin-bottom: 20px;
+        /* background:gray; */
+        margin-top:0px;
+        transition:linear;
+    }
+    .professor:nth-child(2n) .professor-info{
+        order:1;
+        margin-left:0px;
+    }
+    .professor:nth-child(2n) .professor-nome{
+        text-align: center;
+    }
+    .professor:nth-child(2n) .professor-img{
+        margin-right:0px;
+        margin-left:0;
+    }
+    
+    .professor:hover {
+        background:linear-gradient(#272727,#2c2c2c);
+    }
+    .professor-img img {
+        border:3px solid #FFA304;
+        border-radius:50%;
+        margin-top:20px;
+    }
+    .professor-img {
+        margin-left:0px;
+        text-align: center;
+   }
+   .professor-info {
+       /* background:pink; */
+       text-align:center;
+       padding-top:50px;
+   }
+   .professor-nome {
+       color:white;
+       font-family: 'Ubuntu', 'sans-serif';
+       font-size:38px;
+       font-weight: 700;
+   }
+   .professor p {
+       color:white;
+       font-size: 24px;
+       font-family: 'Lato','sans-serif';
+       width:90%;
+       margin:20px;
+       line-height: 35px;
+   }
+}
+
+/* @media screen and (orientation:landscape) {
+    .professores-container {
+        height:auto;
+        margin-top:0px;
+    }
+    .professor {
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        gap:0px;
+        margin-bottom: 20px;
+        margin-top:0px;
+        transition:linear;
+    }
+    .professor:nth-child(2n) .professor-info{
+        order:1;
+        margin-left:0px;
+    }
+    .professor:nth-child(2n) .professor-nome{
+        text-align: center;
+    }
+    .professor:nth-child(2n) .professor-img{
+        margin-right:0px;
+        margin-left:0;
+    }
+    
+    .professor:hover {
+        background:linear-gradient(#272727,#2c2c2c);
+    }
+    .professor-img img {
+        border:3px solid #FFA304;
+        border-radius:50%;
+        margin-top:20px;
+    }
+    .professor-img {
+        margin-left:0px;
+        text-align: center;
+   }
+   .professor-info {
+       text-align:center;
+       padding-top:50px;
+   }
+   .professor-nome {
+       color:white;
+       font-family: 'Ubuntu', 'sans-serif';
+       font-size:38px;
+       font-weight: 700;
+   }
+   .professor p {
+       color:white;
+       font-size: 24px;
+       font-family: 'Lato','sans-serif';
+       width:90%;
+       margin:20px;
+       line-height: 35px;
+   }
+} */
+
 
