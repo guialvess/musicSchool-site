@@ -31,13 +31,6 @@ setInterval(() => {
 // o código acima cria uma animação entre os icones de música 
 
 
-
-let iframe = $("iframe");
-iframe.hide()
-$(document).ready(() => {
-    setTimeout(iframe.fadeIn(1000),100)
-})  
-
 // codigo acima configura o Iframe
 
 // $(".instruments-item1").addClass("instruments-item1Novo")
@@ -178,7 +171,20 @@ $(".passos").addClass("animate__animated animate__slideInLeft")
 
 
 
-// JS da pagina professores
+
+//menu mobile
+
+
+function togglemenu() {
+    let mn = document.getElementById('menu-mob');
+    console.log(mn);
+    if(mn.style.display == 'none' || mn.style.display == ''){
+        mn.style.display = 'block';
+    }else {
+        mn.style.display = 'none';
+    }
+}
+
 
 
 

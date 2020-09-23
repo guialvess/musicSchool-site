@@ -6,6 +6,9 @@
 --var-green:#27ae61;
 --var-blue:#17abe7;
 }
+button:focus {
+    outline:none;
+}
 
 li {
     margin:0;
@@ -124,7 +127,54 @@ input:focus {
 .btn-assinar:hover {
     box-shadow: 0 0 10px  yellow;
 }
+.menu-target {
+    background:none;
+    border:none;
+}
+.menu-mobile {
+	width:100%;
+    margin-bottom:40px;
+    display:none;
+}
+.menu-mobile img {
+    width:64px;
+    margin-left:30px;
+    cursor:pointer;
+}
 
+.mobile-nav li {
+	text-align:center;
+}
+.mobile-nav li:hover {
+	background-color:#ffa304;
+}
+.mobile-nav li a {
+	font-family:sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:15px;
+}
+.submenu-mobile {
+    display:inline-block;
+    float:right;
+	margin-right:20px;
+    margin-top:15px;
+}
+.submenu-mobile a {
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+    font-family:sans-serif;
+    margin-left:5px;
+    margin-right:5px;
+}
+.submenu-mobile .btnn-assinar {
+	background:#27ae61;
+	padding:8px;
+	display:inline-block;
+	border-radius:5px;
+}
 /* sessão de apresentação */
 @keyframes blur {
     0% {
@@ -585,6 +635,12 @@ iframe {
     .flex-menu {
         display:none;
     }
+    .menu-mobile {
+        display:block;
+    }
+    .mobile-nav {
+        display:none;
+    }
     .head {
         height: auto;
         background-color:#000000;
@@ -1010,4 +1066,3 @@ iframe {
  
     
 } */
-

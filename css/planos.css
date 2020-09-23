@@ -1,3 +1,6 @@
+:focus {
+	outline:none;
+}
 .banner img {
     width:100%;
 }
@@ -78,80 +81,87 @@
 }
 
 
+
 @media screen and (max-width:580px) {
-    .container-planos {
-        margin-top:80px;
-        display:flex;
-        justify-content:space-around;
-        height:800px;
-        margin-bottom:40px;
-        overflow:scroll ;
-    }
-    .container-planos .card {
-        display:flex;
-        flex-direction: column;
-        height: auto;
-        border-radius:10px 10px 5px 5px;
-        font-family: 'Open Sans','sans-serif';
-        box-shadow:2px 2px 5px rgb(78, 76, 76);
-        transition:all ease-in-out .2s;
-        margin-left:10px;
-        margin-right:10px;
-    }
-    .container-planos .card:hover {
-        transform:translateY(-20px)
-    }
-    .card__1 {
-        background-color:#22c0a8;
-    }
-    .card__2 {
-        background-color:#22C067;
-    }
-    .card__3 {
-        background-color:#cececee8;
-    }
-    .card-title{
-        background-color:rgb(54, 54, 54);
-        border-radius:10px 10px 0 0;
-        padding:10px;
-    }
-    .card-title .plano {
-        color:#ffffff;
-    }
-    
-    .card-preco .preco {
-        font-size:6rem;
-        font-family: 'Ubuntu','sans-serif';
-    }
-    .card-preco p {
-        margin-top:-5px;
-        color:rgb(71, 70, 70);
-    }
-    .card-conteudo {
-        text-align: left;
-    }
-    .card-conteudo p:before {
-        content:'∆';
-        color:black;
-        margin-right: 5px;
-    }
-    .card-conteudo p {
-        font-size:1.2rem;
-    }
-    .card button {
-        border:none;
-        background:#ebeaea;
-        color:rgb(5, 5, 5);
-        width:40%;
-        height:40px;
-        align-self: center;
-        margin-top:40px;
-        border-radius:5px;
-        cursor:pointer;
-        border-bottom: 1px solid #949393;
-    }
-    .card button:hover {
-        border-bottom:1px solid #575757;
-    }
+	.banner img {
+    width:100%;
+}
+
+.container-planos {
+    margin-top:80px;
+    display:block;
+    height:auto;
+    margin-bottom:40px;
+    text-align:center;
+}
+.container-planos .card {
+    display:inline-block;
+    flex-direction: column;
+    width:290px;
+    height: auto;
+    border-radius:10px 10px 5px 5px;
+    font-family: 'Open Sans','sans-serif';
+    box-shadow:2px 2px 5px rgb(78, 76, 76);
+    transition:all ease-in-out .2s;
+    margin-top:40px;
+    margin-bottom:40px;
+    padding-bottom:20px;
+}
+.container-planos .card:hover {
+    transform:translateY(-10px)
+}
+.card__1 {
+    background-color:#22c0a8;
+}
+.card__2 {
+    background-color:#22C067;
+}
+.card__3 {
+    background-color:#cececee8;
+}
+.card-title{
+    background-color:rgb(54, 54, 54);
+    border-radius:10px 10px 0 0;
+    padding:10px;
+}
+.card-title .plano {
+    color:#ffffff;
+}
+
+.card-preco .preco {
+    font-size:3rem;
+    font-family: 'Ubuntu','sans-serif';
+}
+.card-preco p {
+    margin-top:-5px;
+    color:rgb(71, 70, 70);
+    font-size:.6rem;
+}
+.card-conteudo {
+    text-align: left;
+}
+.card-conteudo p:before {
+    content:'∆';
+    color:black;
+    margin-right: 5px;
+}
+.card-conteudo p {
+    font-size:.8rem;
+}
+.card button {
+    border:none;
+    background:#ebeaea;
+    color:rgb(5, 5, 5);
+    width:40%;
+    height:40px;
+    align-self: center;
+    margin-top:20px;
+    border-radius:5px;
+    cursor:pointer;
+    border-bottom: 1px solid #949393;
+}
+.card button:hover {
+    border-bottom:1px solid #575757;
+}
 }
 
