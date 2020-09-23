@@ -631,7 +631,7 @@ iframe {
     margin-right:10px;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:530px) {
     .flex-menu {
         display:none;
     }
@@ -860,11 +860,149 @@ iframe {
 }
 
 }
+@media screen and (max-width:392px) {
+    .instruments {
+        display:flex;
+        justify-content: center;
+        margin-top:100px;
+        position:relative;
+    
+    }
+    .instruments::after {
+        content:'';
+        background: url(../svg/linhaestilo.svg)no-repeat;
+        height:3px;
+        width:100%;
+        position:absolute;
+        top:25px;
+        transform: translateX(0px);
+        z-index:-10;
+    }
+    
+    .instruments-item1::after {
+        content:url(../svg/saxofone-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    
+    }
+    .instruments-item1Novo::after {
+        content:url(../svg/saxofone-amarelo2.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    
+    }
+    .instruments-item2::after {
+        content:url(../svg/electric-guitar-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .instruments-item2Novo::after {
+        content:url(../svg/electric-guitar-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    
+    }
+    
+    .instruments-item3::after {
+        content:url(../svg/piano-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .instruments-item3Novo::after {
+        content:url(../svg/piano-branco.svg);
+        display:block;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    }
+    
+    .instruments-item4::after {
+        content:url(../svg/flute-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .instruments-item4Novo::after {
+        content:url(../svg/flute-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    }
+    .instruments-item5::after {
+        content:url(../svg/drums-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .instruments-item5Novo::after {
+        content:url(../svg/drums-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    }
+    .instruments-item6::after {
+        content:url(../svg/guitar-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .instruments-item6Novo::after {
+        content:url(../svg/guitar-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    
+    }
+}
 
-/*landscape*/
-
-/* @media screen and (orientation:landscape){
+/* ======================SCREEN TABLET==================== */
+@media screen and (min-width:531px) and (max-width:960px){
     .flex-menu {
+        display:none;
+    }
+    .menu-mobile {
+        display:block;
+    }
+    .mobile-nav {
         display:none;
     }
     .head {
@@ -872,7 +1010,7 @@ iframe {
         background-color:#000000;
         padding-top:20px;
         box-sizing:border-box;
-        border-bottom:1px solid #ffffff;
+        border-bottom:1px solid #222222;
     }
     .logo {
         text-align:center;
@@ -881,7 +1019,7 @@ iframe {
     }
     .apresentacao {
         display:block;
-        height:530px;
+        height:auto;
     }
     .apresentacao-img {
         margin-left:0px;
@@ -893,63 +1031,147 @@ iframe {
     }
     .apresentacao h1 {
         text-align: center;
-        font-size:20px;
+        font-size:25px;
+        margin-left:20%;
+    }
+    .apresentacao p {
+        margin-left:20%;
     }
 
+    /* media queries instrumentos */
 
     .instruments {
-        justify-content:flex-start;
-        margin-top:60px;
-        flex-wrap:nowrap;
+        display:flex;
+        justify-content: center;
+        margin-top:100px;
+        position:relative;
+    
     }
     .instruments::after {
-        width:100%;
+        content:'';
+        background: url(../svg/linhaestilo.svg)no-repeat;
+        height:3px;
+        width:600px;
+        position:absolute;
+        top:25px;
+        transform: translateX(0px);
+        z-index:-10;
     }
     
     .instruments-item1::after {
-        margin-left:0;
+        content:url(../svg/saxofone-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
+    
     }
     .instruments-item1Novo::after {
-                    margin-left:0px;
+        content:url(../svg/saxofone-amarelo2.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    
     }
     .instruments-item2::after {
-        margin-left:40px;
+        content:url(../svg/electric-guitar-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
     }
     .instruments-item2Novo::after {
-        margin-left:40px;
+        content:url(../svg/electric-guitar-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
     
     }
     
     .instruments-item3::after {
-      margin-left:40px;
-      margin-right:40px;
+        content:url(../svg/piano-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
     }
     .instruments-item3Novo::after {
-        margin-left:40px;
-        margin-right:40px;
+        content:url(../svg/piano-branco.svg);
+        display:block;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
     }
     
     .instruments-item4::after {
-        margin-left:40px;
+        content:url(../svg/flute-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
     }
     .instruments-item4Novo::after {
-        margin-left:40px;
+        content:url(../svg/flute-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
     }
     .instruments-item5::after {
-        margin-left:40px;
-    
+        content:url(../svg/drums-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
     }
     .instruments-item5Novo::after {
-        margin-left:40px;
-    
+        content:url(../svg/drums-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
     }
     .instruments-item6::after {
-        margin-left:50px;
-    
+        content:url(../svg/guitar-amarelo.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+        margin-left:30px;
+        margin-right:30px;
     }
     .instruments-item6Novo::after {
-        margin-left:50px;
+        content:url(../svg/guitar-branco.svg);
+        display:block;
+        padding:5px;
+        border:2px solid #ffa304;
+        border-radius: 10px;
+        background-color: black;
+    
     }
+    /* video relacionado aos cursos + desc */
 
 .instrument-active {
     font-size:20px;
@@ -987,82 +1209,106 @@ iframe {
     width:100px;
     margin:0 auto;
 }
+/* card serviço */
 
 .card-container {
     display:none;
   }
+  /* Beneficios */
 
 
-.servicos {
+  .servicos {
     height:auto;
-}
-.bnf1,.bnf2,.bnf3 {
-	margin-top:5px;
+    background-color:rgba(238, 188, 40, 0.8);
+    text-align:center;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    box-sizing: border-box;
+    border-bottom:1px solid white;
+    z-index: 10;
 }
 .servicos object {
-    width:50px;
-    height: 50px;
+    width:100px;
+    height: 100px;
 }
 .servicos img {
-    width:50px;
-    height:50px;
+    width:100px;
+    height:100px;
 }
 .servicos h2 {
-    font-size:28px;
+    font-size:48px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .servicos-container {
-    display:block;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .servicos-container h3 {
-    font-size:22px;
+    z-index:10;
+    font-size:32px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .servicos-container p {
-    text-align:left;
-    max-width:400px;
+    text-align:justify;
+    max-width:500px;
+    font-family: 'Open Sans', sans-serif;
 }
+.bnf1, .bnf2, .bnf3 {
+    padding:10px;
+    transition:background ease-out .2s;
+    background:rgba(238, 188, 40,0.3);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bnf1:hover, .bnf2:hover, .bnf3:hover {
+    background-color:rgba(238, 188, 40, 0.9);
+}
+/* rodapé do site */
 
 .footer {
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     display:flex;
-    flex-direction: column;
-    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+}
+.footer .nav-footer a {
+    color:#ffffff;
+    text-decoration: none;
+}
+.footer .nav-footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa304;
 }
 .footer .nav-footer li {
     list-style:none;
     margin-top:20px;
     margin-left:40px;
-    
-}
-.footer .nav-footer li:after {
-	content:'';
-	display:block;
-	width:20px;
-	height:2px;
-	background:gray;
-	margin-top:5px;
 }
 .footer .nav-footer {
-    display:block;
-    width:160px;
-    margin:0 auto;
-    text-align:left;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;
 }
 .footer .redes-sociais {
-			 margin-top:40px;
     display:flex;
-    justify-content: space-evenly;
-    margin-right: 0px;
-    margin-bottom:15px;
+    align-items: center;
+    margin-right: 40px;
 }
 
 .footer .redes-sociais img{
     display:inline-block;
-    width: 40px;
-    
+    width: 50px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
- 
-    
-} */
+
+}

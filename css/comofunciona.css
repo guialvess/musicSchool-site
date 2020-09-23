@@ -11,7 +11,7 @@ body {
 }
 .passos, .termos {
     width:85%;
-    height:380px;
+    height:auto;
     margin:0 auto;
     background-color:#101010;
     padding:20px;
@@ -26,7 +26,7 @@ body {
 
 .termos {
     margin-top:50px;
-    height:700px;
+    height:auto;
 }
 .termos h2 {
     font-family: 'Lato', 'sans-serif';
@@ -91,6 +91,9 @@ body {
     width:100%;
     background-color: rgba(71, 71, 71, 0.313);
 
+}
+.footer {
+    margin-top:50px !important;
 }
 
 /*media query*/

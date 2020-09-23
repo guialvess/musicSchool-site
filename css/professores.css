@@ -1,9 +1,9 @@
 .professores-container {
-    height:3400px;
+    height:auto;
     margin-top:80px;
 }
 .professor {
-    height:340px;
+    height:auto;
     display:flex;
     gap:100px;
     /* background:gray; */
@@ -30,25 +30,6 @@
     border-radius:50%;
     margin-top:20px;
 }
-/* .btn-zoom {
-    display:none;
-    color:white;
-    font-size:60px;
-    text-align: center;
-    line-height: 100px;
-    position:absolute;
-    top:35%;
-    left:33%;
-    width:100px;
-    height:100px;
-    background:rgba(255, 166, 0, 0.503);
-    border-radius: 50%;
-    cursor:pointer;
-    user-select: none;
-}
-.professor-img:hover  .btn-zoom {
-    display:block;
-} */
 .professor-img {
      margin-left:60px;
      position:relative;
@@ -57,6 +38,7 @@
     /* background:pink; */
     text-align:left;
     padding-top:50px;
+    margin-left:100px;
 }
 .professor-nome {
     color:white;
