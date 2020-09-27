@@ -48,14 +48,14 @@
 }
 .professor p {
     color:white;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Lato','sans-serif';
     margin-top:10px;
     word-break: break-all;
     width:80%;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:700px) {
     .professores-container {
         height:auto;
         margin-top:0px;
@@ -96,8 +96,10 @@
    }
    .professor-info {
        /* background:pink; */
-       text-align:center;
+       text-align:justify;
+       padding:10px;
        padding-top:50px;
+       margin:0;
    }
    .professor-nome {
        color:white;
@@ -107,11 +109,10 @@
    }
    .professor p {
        color:white;
-       font-size: 24px;
+       font-size: 18px;
        font-family: 'Lato','sans-serif';
-       width:90%;
-       margin:20px;
-       line-height: 35px;
+       width:100%;
+       line-height: 30px;
    }
 }
 
