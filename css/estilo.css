@@ -1328,3 +1328,22 @@ iframe {
     background-color:#0e0e0e;
 }
 
+.title-h4 {
+    font-size:18px;
+    font-family: 'Open Sans' !important;
+}
+.subtitle__h4 {
+    font-family: 'Lato';
+    margin-top:25px;
+    margin-left:15px;
+}
+.termos__text {
+    font-size:14px;
+}
+
+label {
+    font-family:'Lato';
+}
+.extra__info {
+    font-family: 'Lato';
+}
