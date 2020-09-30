@@ -43,7 +43,7 @@ e 10px de altura para a barra horizontal */
     border-radius:25px;
 }
 input:focus {
-    outline:none;
+    outline:none !important;
 }
 
 
@@ -1312,3 +1312,19 @@ iframe {
 
 
 }
+
+.dados {
+    margin-bottom:80px;
+}
+.dados form input,select {
+    margin-bottom:5px;
+    color:white !important;
+    padding: 5px !important;
+}
+#estado {
+    width:30%;
+}
+.tabela {
+    background-color:#0e0e0e;
+}
+
