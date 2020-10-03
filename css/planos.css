@@ -28,13 +28,13 @@
     transform:translateY(-20px)
 }
 .card__1 {
-    background-color:#22c0a8;
+    background-color:#ffffff;
 }
 .card__2 {
-    background-color:#22C067;
+    background-color:#ffffff;
 }
 .card__3 {
-    background-color:#cececee8;
+    background-color:#ffffff;
 }
 .card-title{
     background-color:rgb(54, 54, 54);
@@ -48,6 +48,7 @@
 .card-preco .preco {
     font-size:6rem;
     font-family: 'Ubuntu','sans-serif';
+    color:black;
 }
 .card-preco p {
     margin-top:-5px;
@@ -63,11 +64,13 @@
 }
 .card-conteudo p {
     font-size:1.2rem;
+    color:black;
+    font-weight: bold;
 }
 .card button {
     border:none;
-    background:#ebeaea;
-    color:rgb(5, 5, 5);
+    background:#22C067;
+    color:#ffffff;
     width:40%;
     height:40px;
     align-self: center;
@@ -110,58 +113,7 @@
 .container-planos .card:hover {
     transform:translateY(-10px)
 }
-.card__1 {
-    background-color:#22c0a8;
-}
-.card__2 {
-    background-color:#22C067;
-}
-.card__3 {
-    background-color:#cececee8;
-}
-.card-title{
-    background-color:rgb(54, 54, 54);
-    border-radius:10px 10px 0 0;
-    padding:10px;
-}
-.card-title .plano {
-    color:#ffffff;
-}
 
-.card-preco .preco {
-    font-size:3rem;
-    font-family: 'Ubuntu','sans-serif';
-}
-.card-preco p {
-    margin-top:-5px;
-    color:rgb(71, 70, 70);
-    font-size:.6rem;
-}
-.card-conteudo {
-    text-align: left;
-}
-.card-conteudo p:before {
-    content:'∆';
-    color:black;
-    margin-right: 5px;
-}
-.card-conteudo p {
-    font-size:.8rem;
-}
-.card button {
-    border:none;
-    background:#ebeaea;
-    color:rgb(5, 5, 5);
-    width:40%;
-    height:40px;
-    align-self: center;
-    margin-top:20px;
-    border-radius:5px;
-    cursor:pointer;
-    border-bottom: 1px solid #949393;
-}
-.card button:hover {
-    border-bottom:1px solid #575757;
-}
+
 }
 
