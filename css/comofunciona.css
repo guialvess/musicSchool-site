@@ -52,7 +52,7 @@ body {
     background:rgba(252, 250, 250, 0.864);
 }
 .passos h1 {
-    font-size:24px;
+    font-size:18px;
     font-family: 'Lato', 'sans-serif';
     font-weight: 700;
 }
@@ -81,7 +81,7 @@ body {
     z-index: 20;
 }
 .termos ol li:hover {
-    color:rgb(245, 61, 61);
+    color:rgb(47, 142, 220);
 }
 
 .termos ol li:after {
@@ -181,9 +181,6 @@ body {
         font-family: 'Lato', sans-serif;
         color:white;
         z-index: 20;
-    }
-    .termos ol li:hover {
-        color:rgb(245, 61, 61);
     }
     .termos ol li:after {
         content:'';

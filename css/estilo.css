@@ -6,6 +6,9 @@
 --var-green:#27ae61;
 --var-blue:#17abe7;
 }
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 button:focus {
     outline:none;
 }
@@ -539,7 +542,7 @@ iframe {
 
 .servicos {
     height:500px;
-    background-color:rgba(238, 188, 40, 0.8);
+    background-color:rgba(226, 194, 95, 0.8);
     text-align:center;
     color:#000000;
     font-family: Arial, Helvetica, sans-serif;
@@ -587,6 +590,7 @@ iframe {
 
 .bnf1:hover, .bnf2:hover, .bnf3:hover {
     background-color:rgba(238, 188, 40, 0.9);
+    box-shadow: 0 3px 3px black;
 }
 
 /* rodapé do site */
