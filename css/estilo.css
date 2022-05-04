@@ -1223,7 +1223,7 @@ iframe {
 
   .servicos {
     height:auto;
-    background-color:rgba(238, 188, 40, 0.8);
+    background-color:#042526e6;
     text-align:center;
     color:#000000;
     font-family: Arial, Helvetica, sans-serif;
@@ -1264,13 +1264,13 @@ iframe {
 .bnf1, .bnf2, .bnf3 {
     padding:10px;
     transition:background ease-out .2s;
-    background:rgba(238, 188, 40,0.3);
+    background:#042122e6;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .bnf1:hover, .bnf2:hover, .bnf3:hover {
-    background-color:rgba(238, 188, 40, 0.9);
+    background-color:#052f30e6;
 }
 /* rodapé do site */
 
