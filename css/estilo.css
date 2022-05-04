@@ -542,9 +542,9 @@ iframe {
 
 .servicos {
     height:500px;
-    background-color:rgba(226, 194, 95, 0.8);
+    background-color:#00171fcc;
     text-align:center;
-    color:#000000;
+    color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
     padding:5px;
     box-sizing: border-box;
@@ -583,13 +583,13 @@ iframe {
 .bnf1, .bnf2, .bnf3 {
     padding:10px;
     transition:background ease-out .2s;
-    background:rgba(238, 188, 40,0.3);
+    background:#001820cc;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .bnf1:hover, .bnf2:hover, .bnf3:hover {
-    background-color:rgba(238, 188, 40, 0.9);
+    background-color:#012936cc;
     box-shadow: 0 3px 3px black;
 }
 
@@ -1288,7 +1288,7 @@ iframe {
 }
 .footer .nav-footer a:hover {
     text-decoration: underline;
-    text-decoration-color: #ffa304;
+    text-decoration-color: #ff0404;
 }
 .footer .nav-footer li {
     list-style:none;
