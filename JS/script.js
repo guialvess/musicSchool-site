@@ -125,7 +125,7 @@ $(".instruments-item6").click(() => {
 var animate = "animate__animated animate__bounce";
 $(".passo1").mouseover(() => {
     $(".passo1").find("object").addClass(animate)
-    $(".passo1").find(".passo-title").css({color:'#8D1F2C'})
+    $(".passo1").find(".passo-title").css({color:'#3636ee'})
 })
 $(".passo1").mouseout(() => {
     $(".passo1").find("object").removeClass(animate)
@@ -134,7 +134,7 @@ $(".passo1").mouseout(() => {
 
 $(".passo2").mouseover(() => {
     $(".passo2").find("object").addClass(animate)
-    $(".passo2").find(".passo-title").css({color:'#8D1F2C'})
+    $(".passo2").find(".passo-title").css({color:'#3636ee'})
 })
 $(".passo2").mouseout(() => {
     $(".passo2").find("object").removeClass(animate)
@@ -144,7 +144,7 @@ $(".passo2").mouseout(() => {
 
 $(".passo3").mouseover(() => {
     $(".passo3").find("object").addClass(animate)
-    $(".passo3").find(".passo-title").css({color:'#8D1F2C'})
+    $(".passo3").find(".passo-title").css({color:'#3636ee'})
 
 })
 $(".passo3").mouseout(() => {
@@ -155,7 +155,7 @@ $(".passo3").mouseout(() => {
 
 $(".passo4").mouseover(() => {
     $(".passo4").find("object").addClass(animate)
-    $(".passo4").find(".passo-title").css({color:'#8D1F2C'})
+    $(".passo4").find(".passo-title").css({color:'#3636ee'})
 
 })
 $(".passo4").mouseout(() => {

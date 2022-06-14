@@ -26,7 +26,6 @@ body {
     background-color:#101010;
     margin:0;
     padding:0;
-    outline-color:red;
 }
 /* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
 e 10px de altura para a barra horizontal */
@@ -121,14 +120,14 @@ input:focus {
 }
 
 .btn-assinar {
-    background-color:var(--var-green);
+    background-color:#3636ee;
     padding:20px;
     border-radius: 5px;
     margin-right:40px;
 }
 
 .btn-assinar:hover {
-    box-shadow: 0 0 10px rgb(38, 233, 38);
+    box-shadow: 0 0 8px #0000df;
 }
 .menu-target {
     background:none;
@@ -173,7 +172,7 @@ input:focus {
     margin-right:5px;
 }
 .submenu-mobile .btnn-assinar {
-	background:#27ae61;
+	background:#3636ee;
 	padding:8px;
 	display:inline-block;
 	border-radius:5px;
@@ -216,7 +215,7 @@ input:focus {
 }
 .apresentacao-text p {
     animation-name: blur;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     font-family: 'Open Sans', sans-serif;
@@ -387,7 +386,7 @@ input:focus {
     content:'';
     width:50px;
     height:2px;
-    background:#ffa304;
+    background:#ffffff;
     display:block;
 }
 iframe {
@@ -412,7 +411,7 @@ iframe {
     list-style:none;
     font-family:'Open Sans', sans-serif;
 }
-.desc-video-play object {
+.desc-video-play img {
     width: 64px;
     margin:40px;
 }
@@ -428,7 +427,7 @@ iframe {
 
 }
 .btn-aulas {
-    background-color:#27ae61;
+    background-color:#3636ee;
     padding:5px;
     color:white;
     display:block;
@@ -443,7 +442,7 @@ iframe {
     transition:background-color ease-out .3s;
 }
 .btn-aulas:hover {
-    background:#22c067;
+    background:#5252fa;
 }
 
 /* card serviço */
@@ -460,7 +459,7 @@ iframe {
     color:black;
 }
 .card {
-    background-color:#27ae61;
+    background-color:#3636ee;
     width:740px;
     height: 300px;
     border-radius:5px 5px 25px 25px;
@@ -469,7 +468,7 @@ iframe {
     grid-template-areas: "a a a a a a"
                          "b b c c c c"
                          "d d d d d d";
-    box-shadow: 0 0 5px 3px #134d2c;
+    box-shadow: 0 0 5px 3px #000000;
 }
 
 .grid1 {
@@ -511,8 +510,8 @@ iframe {
     font-size:25px;
 }
 .btn-as-card {
-    background-color:rgb(233, 197, 88);
-    color:#ffffff;
+    background-color:#ffffffa6;
+    color:#000000;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size:16px;

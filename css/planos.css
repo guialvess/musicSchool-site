@@ -19,7 +19,7 @@
     height: 600px;
     border-radius:10px 10px 5px 5px;
     font-family: 'Open Sans','sans-serif';
-    box-shadow:2px 2px 5px rgb(78, 76, 76);
+    box-shadow:2px 2px 5px rgb(0, 0, 0);
     transition:all ease-in-out .2s;
     margin-left:10px;
     margin-right:10px;
@@ -27,17 +27,12 @@
 .container-planos .card:hover {
     transform:translateY(-20px)
 }
-.card__1 {
-    background-color:#ffffff;
-}
-.card__2 {
-    background-color:#ffffff;
-}
-.card__3 {
-    background-color:#ffffff;
+.card__1, .card__2, .card__3 {
+    background-color:#3636ee;
+    border-radius:10px 10px 0 0;
 }
 .card-title{
-    background-color:rgb(54, 54, 54);
+    background-color:#000000;
     border-radius:10px 10px 0 0;
     padding:10px;
 }
@@ -48,28 +43,28 @@
 .card-preco .preco {
     font-size:6rem;
     font-family: 'Ubuntu','sans-serif';
-    color:black;
+    color:#ffffff;
 }
 .card-preco p {
     margin-top:-5px;
-    color:rgb(71, 70, 70);
+    color:rgb(0, 0, 0);
 }
 .card-conteudo {
     text-align: left;
 }
 .card-conteudo p:before {
-    content:'∆';
+    content:'-';
     color:black;
     margin-right: 5px;
 }
 .card-conteudo p {
     font-size:1.2rem;
-    color:black;
+    color:rgb(20, 20, 20);
     font-weight: bold;
 }
 .card button {
     border:none;
-    background:#22C067;
+    background-color:#1717eb;
     color:#ffffff;
     width:40%;
     height:40px;
@@ -77,14 +72,12 @@
     margin-top:80px;
     border-radius:5px;
     cursor:pointer;
-    border-bottom: 1px solid #949393;
+    border-bottom: 2px solid #000000;
+    transition: background .5s ease-in;
 }
 .card button:hover {
-    border-bottom:1px solid #575757;
+    background-color: #1111a5;
 }
-
-
-
 @media screen and (max-width:880px) {
 	.banner img {
     width:100%;
@@ -104,7 +97,6 @@
     height: auto;
     border-radius:10px 10px 5px 5px;
     font-family: 'Open Sans','sans-serif';
-    box-shadow:2px 2px 5px rgb(78, 76, 76);
     transition:all ease-in-out .2s;
     margin-top:40px;
     margin-bottom:40px;
