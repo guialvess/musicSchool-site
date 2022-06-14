@@ -239,7 +239,7 @@ input:focus {
     justify-content: center;
     margin-top:100px;
     position:relative;
-
+    cursor: pointer;
 }
 .instruments::after {
     content:'';
@@ -1222,16 +1222,14 @@ iframe {
 
   .servicos {
     height:auto;
-    background-color:#042526e6;
     text-align:center;
-    color:#000000;
     font-family: Arial, Helvetica, sans-serif;
     padding:5px;
     box-sizing: border-box;
     border-bottom:1px solid white;
     z-index: 10;
 }
-.servicos object {
+.servicos img {
     width:100px;
     height: 100px;
 }
@@ -1263,13 +1261,8 @@ iframe {
 .bnf1, .bnf2, .bnf3 {
     padding:10px;
     transition:background ease-out .2s;
-    background:#042122e6;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.bnf1:hover, .bnf2:hover, .bnf3:hover {
-    background-color:#052f30e6;
 }
 /* rodapé do site */
 

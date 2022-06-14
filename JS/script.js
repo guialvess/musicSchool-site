@@ -48,6 +48,8 @@ $(".instruments-item1").mouseout(() => {
 })
 $(".instruments-item1").click(() => {
     $("iframe").attr({src:'https://www.youtube.com/embed/hj4BF7a7oXE'})
+    $(".instrument-active").text("Saxofone")
+    $(".instrumento-rel").text("Saxofone")
 })
 
 // item 2
@@ -58,7 +60,7 @@ $(".instruments-item2").mouseout(() => {
     $(".instruments-item2").removeClass("instruments-item2Novo")
 })
 $(".instruments-item2").click(() => {
-    $("iframe").attr({src:'https://www.youtube.com/embed/hXQxSi34GWY'})
+    $("iframe").attr({src:'https://www.youtube.com/embed/jGph8a1mt8M'})
     $(".instrument-active").text("Guitarra")
     $(".instrumento-rel").text("Guitarra")
 
