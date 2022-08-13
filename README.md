@@ -10,6 +10,10 @@ tecnologias usada:
 
 acesse o site [aqui](https://guilhermealves-prog.github.io/musicSchool-site/)
 
-![Screenshot 2022-05-11 at 17-58-05 inicio - MusicSchool](https://user-images.githubusercontent.com/70963422/167947313-6b2e1e27-2759-4ae4-9dc9-1550bd059a07.png)
-![Screenshot 2022-05-11 at 17-47-32 inicio - MusicSchool](https://user-images.githubusercontent.com/70963422/167948006-666cd742-4013-4544-ac42-6dfcff91fc3f.png)
-![Screenshot 2022-05-11 at 17-47-47 Login - MusicSchool](https://user-images.githubusercontent.com/70963422/167948022-9ac25b90-8c98-4584-a35c-831a73f46927.png)
+--------
+
+## Preview
+
+
+![Screenshot 2022-06-14 at 13-38-07 MusicSchool](https://user-images.githubusercontent.com/70963422/173631982-5574bba9-5040-430c-8411-fcb0a41f30c6.png)
+![Screenshot 2022-06-14 at 13-39-10 Fale conosco - MusicSchool](https://user-images.githubusercontent.com/70963422/173632306-b9c0eda6-8f7e-4f1a-91bf-46b55af400e0.png)
