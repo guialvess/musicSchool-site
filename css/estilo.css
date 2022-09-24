@@ -99,12 +99,12 @@ input:focus {
 .menu li a{
     color:white;
     text-decoration: transparent;
-    transition: all ease-in .3s;
+    transition: all ease-in 400ms;
     font-family: 'Ubuntu', sans-serif;
 }
 .menu li a:hover {
-    text-decoration:underline;
-    text-decoration-color: #ffa304;
+    border-bottom: 2px solid #ffa304;
+    transition: all ease-in 200ms;
 }
 
 .submenu {
@@ -206,6 +206,7 @@ input:focus {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    animation-delay: 1.2s;
 }
 
 .apresentacao-text {
@@ -215,7 +216,7 @@ input:focus {
 }
 .apresentacao-text p {
     animation-name: blur;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     font-family: 'Open Sans', sans-serif;
@@ -282,6 +283,7 @@ input:focus {
     margin-left:30px;
     margin-right:30px;
 }
+
 .instruments-item2Novo::after {
     content:url(../svg/electric-guitar-branco.svg);
     display:block;
@@ -541,7 +543,7 @@ iframe {
 
 .servicos {
     height:500px;
-    background-color:#00171fcc;
+    background-color:#00000067;
     text-align:center;
     color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -581,15 +583,16 @@ iframe {
 }
 .bnf1, .bnf2, .bnf3 {
     padding:10px;
-    transition:background ease-out .2s;
-    background:#001820cc;
+    transition:all ease-in 300ms;
+    background:#000000;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .bnf1:hover, .bnf2:hover, .bnf3:hover {
-    background-color:#012936cc;
-    box-shadow: 0 3px 3px black;
+    background-color:#000000;
+    border-bottom: 3px solid #3636ee;
+    transition:all ease-in 300ms;
 }
 
 /* rodapé do site */

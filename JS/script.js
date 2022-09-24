@@ -168,7 +168,7 @@ $(".passo4").mouseout(() => {
 
 // animate div
 
-$(".passos").addClass("animate__animated animate__slideInLeft")
+$(".passos").addClass("animate__animated animate__zoomIn")
     $(".termos").addClass("animate__animated animate__slideInLeft")
 
 

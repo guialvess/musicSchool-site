@@ -1,6 +1,9 @@
 body {
     background-color: #202020f3;
 }
+.menu ul li:nth-child(2) a {
+    border-bottom: 2px solid #ffa304;
+}
 .content {
     width: 100%;
     height: 1300px;
