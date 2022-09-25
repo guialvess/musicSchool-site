@@ -1,4 +1,8 @@
-O site musicSchool é um site criado com inspiraçao em um outro site de aulas de musicas e instrumentos musicais, o objetivo de criaçao foi colocar meus estudos de programacao em pratica podendo utilizar varios recursos que aprendi ao longo da minha jornada de estudos.
+# 📋 Sobre 
+
+O site MusicSchool é um site que simula um site de aulas de instrumentos musicais , ele possui <strong>8 páginas</strong>,
+Entre elas página com preço dos planos, contato, professores etc. Nesse site foi usado <strong>HTML</strong> , <strong>CSS e JavaScript</strong> sendo
+Css foi utilizado um pouco do framework bootstrap e o framework de JavaScript <strong>JQuery</strong>, usado para modificar estados de elementos na página.
 
 tecnologias usada:
 
