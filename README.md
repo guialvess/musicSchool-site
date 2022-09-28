@@ -18,5 +18,5 @@ acesse o site [aqui](https://guilhermealves-prog.github.io/musicSchool-site/)
 
 ## Preview
 
+![Screenshot 2022-09-26 at 19-42-10 MusicSchool](https://user-images.githubusercontent.com/70963422/192393516-4f1180dc-1e91-4465-a183-1312f989a8d4.png)
 
-![Screenshot 2022-06-14 at 13-38-07 MusicSchool](https://user-images.githubusercontent.com/70963422/173631982-5574bba9-5040-430c-8411-fcb0a41f30c6.png)
