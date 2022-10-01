@@ -4,7 +4,7 @@ O site MusicSchool é um site que simula um site de aulas de instrumentos musica
 Entre elas página com preço dos planos, contato, professores etc. Nesse site foi usado <strong>HTML</strong> , <strong>CSS e JavaScript</strong> sendo
 Css foi utilizado um pouco do framework bootstrap e o framework de JavaScript <strong>JQuery</strong>, usado para modificar estados de elementos na página.
 
-tecnologias usada:
+### tecnologias usada:
 
 - HTML
 - CSS
