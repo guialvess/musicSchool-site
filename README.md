@@ -12,7 +12,7 @@ Css foi utilizado um pouco do framework bootstrap e o framework de JavaScript <s
 - Bootstrap
 - jquery
 
-acesse o site [aqui](https://guilhermealves-prog.github.io/musicSchool-site/)
+acesse o site [aqui](https://guialvess.github.io/musicSchool-site/)
 
 --------
 
